@@ -14,7 +14,8 @@ body{
   
 }
 .header{
-  font-size: 50px;
+  margin: 20px;
+  font-size: 40px;
   color: white;
   animation: blinker 4s linear infinite;
 }
@@ -62,6 +63,18 @@ nav{
   border-radius: 55%;
   
 }
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background: #5f73ce;
+  text-align: center;
+  margin: 30px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
 .todo-button{
   padding: 16px;
   border: none;
@@ -73,9 +86,11 @@ nav{
     rgba(93, 12, 255, 1) 0%,
     rgba(155, 0, 250, 1) 100%  
   );
+  text-transform: capitalize;
 }
 .todo-input{
   padding: 14px 32px 14px 16px;
+  margin-top: 50px;
   border-radius: 4px 0 0 4px;
   outline: none;
   border: 2px solid rgba(93, 12, 255, 1);
@@ -85,4 +100,42 @@ nav{
   margin: 30px;
   color: white;
 }
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 118, 20, 1) 0%,
+    rgba(255, 84, 17, 1) 100%
+  );
+
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.edit-icon {
+  color: #fff;
+}
+
 

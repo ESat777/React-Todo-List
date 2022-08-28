@@ -5,9 +5,12 @@ function TodoApp() {
 
   
   return (
-    <div>
+    <>
+    <h1 className='header'>What's the Plan for Today?</h1>
+    <div className='todo-app'>
       <List />
     </div>
+    </>
     
   )
 }

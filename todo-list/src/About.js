@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Dont from './Components/dont1.jpg';
 
 function About() {
   return (
-    <div>About</div>
+    <>     
+      <h1 className='header'> Don't Waste Your Time! Do something!</h1>
+      <img src={Dont} />
+    </>
   )
 }
 

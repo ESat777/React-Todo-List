@@ -60,8 +60,7 @@ function List() {
       setTodos(updatedTodos);
     }
   return (
-    <div>
-        <h1>Todo List</h1>
+    <div>        
         <Form onSubmit={addTodo} />
         <Todo
          todos={todos}
