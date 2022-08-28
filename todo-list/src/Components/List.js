@@ -17,6 +17,7 @@ function List() {
 	    const lsItems = localStorage.getItem("items");
 	    if (!lsItems) localStorage.setItem("items", JSON.stringify(todos));
 	    else setTodos(JSON.parse(lsItems));
+      // eslint-disable-next-line
 	  }, []);
 
     useEffect(() => {
