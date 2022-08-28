@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from './logo.jpg';
-import TodoApp from './Components/TodoApp';
-import Home from './Home';
+// import TodoApp from './Components/TodoApp';
+// import Home from './Home';
 
 function NavBar() {
   return (

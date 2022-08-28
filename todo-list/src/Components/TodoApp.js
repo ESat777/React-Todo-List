@@ -1,13 +1,12 @@
 import React from 'react'
-import Form from './Form'
+import List from './List'
 
 function TodoApp() {
 
   
   return (
     <div>
-      <h1 className='todo-plan'>Plan for Today!</h1>
-      <Form/>
+      <List />
     </div>
     
   )
